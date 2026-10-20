@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+p{color: rgb(222, 19, 29);}
+
+.parrafo {color: rgb(125, 220, 16);}
+
+.apartados {color: blue;}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+li{list-style-type: none;
+    color: brown;}
+
+.Mas_button {
+    height: 50px;
+    color: rgb(16, 63, 252);
+}
+
+.imagen { height: 100px;
+          width: auto;
+        border: 1px;}
+
+header, main {border: 1px solid black;
+            padding: 20px;
+             margin: 12px;}
+
+h1 {text-align: center;
+    font-size: 50px;}
+
+header {display: flex;
+         justify-content: space-between;}
+
+ul{display: flex;
+    gap: 20px;
+     padding: 0;}
+
+.Carrito{ color: rgb(11, 9, 9);}
+
+.Carrito_de_compra{ background-color: rgb(17, 0, 255);padding: 30px;position: relative;}
+
+.globito{ color:aliceblue; width: 30px;height: 30px;margin: 0;border-radius: 15px;background-color: rgb(2, 1, 5);display: flex;justify-content: center;align-items: center;position: absolute;top: -10px;right: -10px;}
+
+#footer{ background-color: beige;
+display: flex;flex-direction: column;align-items: center;justify-content: center; padding: 20px;margin-top: auto;}
+
+/* Media Queries */
+@media (width <= 576px) {ul {flex-direction: column;} .Carrito_de_compra{background-color: chartreuse;}
+.Mas_button{display:none;}}
+
+@media (max-width: 768px){.globito{background-color: rgb(rgb(13, 0, 255) green blue / alpha);}}
